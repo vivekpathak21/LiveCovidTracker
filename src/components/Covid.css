@@ -1,0 +1,95 @@
+body{
+    background-color: rgba(8, 5, 5, 0.923);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+h1,h2{
+    color: rgba(255, 255, 255, 1);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;      
+    flex-wrap: wrap;
+}
+
+.card_main1
+{
+    
+    background-color: rgb(52, 208, 235,1);
+    
+
+}
+.card_main2
+{
+    
+    background-color: rgb(52, 235, 92 , 1);
+    
+
+}.card_main3
+{
+   
+    background-color: rgb(235, 110, 52,1);
+    
+
+}.card_main4
+{
+   
+    background-color: rgb(235, 73, 52);
+   
+
+}.card_main5
+{
+    
+    background-color: rgb(233, 249, 111);
+    
+    
+
+}.card_main6
+{
+    
+    background-color: rgb(116,116,209);
+   
+
+}
+
+.card_name span
+{
+    font-size: 25px;
+}
+.card_name
+{
+    font-size: 35px;
+}
+
+.card_total
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card_main
+{   
+    height: 180px;
+    width:380px;
+    margin:25px;
+    align-items: center;
+    transition-property:background;
+    transition-delay: 100ms;
+    box-shadow:5px 5px rgb(227, 227, 230)
+}
+
+.card_main:hover
+{
+    background:rgb(227, 227, 230);
+    width: 400px;
+    height: 200px;
+    box-shadow:0 0 rgb(227, 227, 230)
+}
